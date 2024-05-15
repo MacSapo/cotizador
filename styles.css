@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.catalog, .quotation {
+    margin-bottom: 30px;
+}
+
+.catalog h2, .quotation h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#quotation-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#quotation-table th, #quotation-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.total-amount {
+    text-align: right;
+}

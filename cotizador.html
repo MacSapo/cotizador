@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador Eléctrico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cotizador Eléctrico</h1>
+        <div class="catalog">
+            <h2>Catálogo de Conceptos</h2>
+            <ul id="concept-list">
+            </ul>
+        </div>
+        <div class="quotation">
+            <h2>Cotización</h2>
+            <table id="quotation-table">
+                <thead>
+                    <tr>
+                        <th>Concepto</th>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                        <th>Costo Unitario</th>
+                        <th>Costo Total</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="quotation-body">
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="total-label">Total:</td>
+                        <td id="total-amount">0</td>
+                        <td></td> <!-- Columna para acciones -->
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <!-- Botón para ver cotizaciones -->
+        <button id="finish-quotation-btn" class="btn btn-primary">Finalizar Cotización</button>
+        <a href="cotizaciones.html" class="btn btn-primary">Ver Cotizaciones</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
